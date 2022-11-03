@@ -1,7 +1,6 @@
 extends Camera2D
 
-var player = get_node_or_null("/root/Game/Player_Container/Player")
-
+var player = null
 
 func _process(_delta):
 	if player == null:
